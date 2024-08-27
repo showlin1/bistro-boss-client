@@ -1,16 +1,17 @@
 
 
 const MenuCard = ({item}) => {
-    const { name, image, recipe } = item;
+    const { name, image,price, recipe } = item;
     return (
         <div>
             <div className="card bg-base-100 w-96 shadow-xl h-[500px]">
-                <figure className="px-10 pt-10">
+                <figure >
                     <img
                         src={image}
                         alt="Shoes"
-                        className="rounded-xl" />
+                        />
                 </figure>
+                <p className="absolute right-2 mt-4 mr-4 px-4 bg-slate-900 text-white">${price}</p>
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">{name}</h2>
                     <p>{recipe}</p>
