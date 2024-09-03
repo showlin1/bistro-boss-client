@@ -73,7 +73,7 @@ const MenuCard = ({ item }) => {
                     <p>{recipe}</p>
                     <div className="card-actions">
                         <button onClick={handleAddToCart}
-                            className="btn btn-outline bg-slate-100 text-yellow-600 uppercase border-0 border-b-4">add to cart</button>
+                            className="btn btn-outline bg-slate-100 text-yellow-600 uppercase border-0 border-b-4">Add to Cart</button>
                     </div>
                 </div>
             </div>
